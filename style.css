@@ -124,7 +124,7 @@ body{
     font-family: 'Black Ops One', system-ui;
 }
 .order-now{
-    font-size: 1.4rem;
+    font-size: 14px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 17.4rem;
     margin: auto;
@@ -201,8 +201,8 @@ body{
 }
 .welcome-description{
     font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
+    font-size: 16px;
+    line-height: 25px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -216,11 +216,20 @@ body{
 }
 .first-franchise-main-side-text-one{
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 2rem;
     letter-spacing: 0.48em;
     color: var(--red);
     margin-bottom: 8px;
+    display: block;
+}
+.second-franchise-main-side-text-one{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5rem;
+    letter-spacing: 0.48em;
+    color: var(--red);
+    margin-bottom: 12px;
     display: block;
 }
 .first-franchise-main-first{
@@ -254,7 +263,7 @@ body{
 .first-franchise-main-side-text-three{
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1.9rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
@@ -272,8 +281,8 @@ body{
     transform: rotate(90deg);
 }
 .first-franchise-first-button{
-    font-size: 1.4rem;
-    padding: 1.5rem 3rem 1.5rem 3rem;
+    font-size: 14px;
+    padding: 15px 30px 15px 30px;
     border: 1px solid var(--white);
     border-radius: 35px;
 }
@@ -332,15 +341,6 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.second-franchise-main-side-text-one{
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.48em;
-    color: var(--red);
-    margin-bottom: 8px;
-    display: block;
-}
 .second-franchise-main-first-a{
     display: flex;
     flex-direction: column;
@@ -360,7 +360,7 @@ body{
 }
 .second-franchise-main-side-text-two{
     font-weight: 400;
-    font-size: 2.4rem;
+    font-size: 24px;
     line-height: 2.9rem;
     margin-bottom: 18px;
     display: block;
@@ -368,14 +368,14 @@ body{
 .second-franchise-main-side-text-two-a{
     font-family: 'Black Ops One', system-ui;
     font-weight: 400;
-    font-size: 2.4rem;
+    font-size: 24px;
     line-height: 2.9rem;
 }
 .second-franchise-main-side-text-three{
     margin: 0 auto;
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 14px;
     line-height: 1.7rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
@@ -384,7 +384,7 @@ body{
 .second-franchise-main-side-text-four{
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 14px;
     line-height: 1.7rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
@@ -459,7 +459,7 @@ body{
     margin-bottom: 10px;
 }
 #promotion-section-first-button{
-    font-size: 1.4rem;
+    font-size: 14px;
     padding: 15px 30px 15px 30px;
     border-radius: 35px;
     background-color: var(--green);
@@ -818,6 +818,28 @@ body{
         font-size: 57%;
     }
 }
+@media(max-width:1220px){
+    html{
+        font-size: 57%;
+    }
+    #promotion-section-img{
+        width: 77.65rem;
+        height: 44.48rem;
+        margin: 0 auto;
+    }
+    #promotion-section-side{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-right: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #promotion-section-side-main{
+        text-align: center;
+    }
+}
 @media(max-width:1200px){
     html{
         font-size: 56%;
@@ -832,23 +854,6 @@ body{
     html{
         font-size: 55%;
     }
-    #promotion-section-img{
-        width: 77.65rem;
-        height: 44.48rem;
-        margin: 0 auto;
-    }
-    #promotion-section-side{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        padding-right: 15px;
-        width: 60%;
-        margin: 0 auto;
-    }
-    #promotion-section-side-main{
-        text-align: center;
-    }
 }
 
 @media(max-width:1100px){
@@ -856,20 +861,20 @@ body{
         font-size: 54%;
     }
 }
-@media(max-width:950px){
+@media(max-width:1160px){
     html{
-        font-size: 50%;
+        font-size: 54%;
     }
     #first-franchise-img-one{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     #first-franchise-img-two{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     #first-franchise-img-three{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     .first-franchise-main-side{
@@ -878,9 +883,27 @@ body{
         text-align: center;
     }
 }
+@media(max-width:950px){
+    html{
+        font-size: 50%;
+    }
+}
 @media(max-width:800px){
     html{
         font-size: 45%;
+    }
+    .order-now{
+        font-size: 12px;
+    }
+    .first-franchise-first-button{
+        font-size: 12px;
+        padding: 13px 26px 13px 26px;
+        border-radius: 35px;
+    }
+    #promotion-section-first-button{
+        font-size: 12px;
+        padding: 13px 26px 13px 26px;
+        border-radius: 35px;
     }
     #first-franchise-img-one{
         width: 75%;
@@ -894,12 +917,60 @@ body{
         width: 75%;
         margin: 0 auto;
     }
+    .card-inside{
+        row-gap: 5px;
+    }
     .franchise-express-one{
-        height: 25rem;
-        width: 40%;
+        box-sizing: content-box;
+        padding: 20px 10px;
+        height: unset;
+        width: 44%;
+    }
+    .franchise-express-card-text-one{
+        font-size: 11px;
+    }
+    .franchise-express-card-text-two{
+        font-size: 20px;
+    }
+    .franchise-express-card-text-three{
+        font-size: 20px;
+    }
+    .franchise-express-card-text-four{
+        font-size: 16px;
+    }
+    .franchise-express-card-text-five{
+        font-size: 16px;
     }
 }
 @media(max-width:700px){
+    .welcome-description{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .first-franchise-main-side-text-one{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .second-franchise-main-side-text-one{
+        font-size: 12px;
+    }
+    .second-franchise-main-side-text-two{
+        font-size: 20px;
+    }
+    .second-franchise-main-side-text-two-a{
+        font-size: 20px;
+    }
+    .second-franchise-main-side-text-three{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .second-franchise-main-side-text-four{
+        font-size: 12px;
+    }
+    .first-franchise-main-side-text-three{
+        font-size: 14px;
+        line-height: 22px;
+    }
     .follow-us{
         width: 50%;
         justify-content: center;
@@ -945,6 +1016,14 @@ body{
     #buttons{
         align-items: center;
     }
+    .second-franchise-main-first-a{
+        width: 100%;
+    }
+    .second-franchise-one{
+        width: 100%;
+        height: unset;
+        margin-bottom: 10px;
+    }
 }
 @media(max-width:600px){
     html{
@@ -963,8 +1042,7 @@ body{
         margin: 0 auto;
     }
     .franchise-express-one{
-        height: 25rem;
-        width: 60%;
+        width: 80%;
     }
     #franchise-express-section-main-in {
         justify-content: center;
@@ -974,5 +1052,57 @@ body{
     #promotion-section-img{
         width: 90%;
         margin: 0 auto;
+    }
+    .welcome-description{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .first-franchise-main-side-text-one{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .first-franchise-main-side-text-three{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .second-franchise-main-side-text-one{
+        font-size: 11px;
+    }
+    .order-now{
+        font-size: 12px;
+    }
+    .first-franchise-first-button{
+        font-size: 12px;
+        padding: 11px 23px 11px 23px;
+        border-radius: 35px;
+    }
+    #promotion-section-first-button{
+        font-size: 12px;
+        padding: 11px 23px 11px 23px;
+        border-radius: 35px;
+    }
+    #first-franchise-img-one{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #first-franchise-img-two{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #first-franchise-img-three{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #promotion-section-side{
+        width: 90%;
+    }
+}
+@media(max-width:423px){
+    .order-images {
+        width: 39rem;
+        height: 22rem;
+    }
+    .franchise-express-one{
+        width: 100%;
     }
 }
