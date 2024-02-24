@@ -21,6 +21,17 @@ body{
     color: var(--white);
     font-family: 'Lato', sans-serif;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ed1c24;
+    border-radius: 4px;
+}
 .notextdeco{
     text-decoration: none;
     color: inherit;
