@@ -211,9 +211,8 @@ body{
     border-radius: 2.5rem;
 }
 .row3{
-    padding-top: 40px;
     width: 40%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 #page-bottom{
     background-color: #0f0f0f;
@@ -703,5 +702,10 @@ body{
     .row3{
         width: 100%;
         text-align: center;
+    }
+}
+@media(max-width:390px){
+    .row{
+        justify-content: center;
     }
 }
