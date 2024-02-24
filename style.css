@@ -1096,12 +1096,12 @@ body{
     #promotion-section-side{
         width: 90%;
     }
-}
-@media(max-width:423px){
     .order-images {
         width: 39rem;
         height: 22rem;
     }
+}
+@media(max-width:423px){
     .franchise-express-one{
         width: 100%;
     }
